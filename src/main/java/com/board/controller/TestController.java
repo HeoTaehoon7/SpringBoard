@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class TestController {
 	
-	// http://localhost:9090/
+	// http://localhost:9090/ root
 	@RequestMapping("/")
 	public  String  home() {
 		return "home";    
